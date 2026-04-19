@@ -1,16 +1,19 @@
 ##. BigQuery_Practical
-##. Retail Sales Analysis with Google BigQuery
-##. Project Overview
+##Retail Sales Analysis with Google BigQuery
+
+##Project Overview
+
 ##This project contains a series of SQL queries developed as part of a practical exercise to analyze a Retail Sales Dataset using Google BigQuery
-. The goal of the exercise was to demonstrate proficiency in core SQL concepts including data filtering, aggregation, conditional logic, and advanced grouping techniques
-.
-##.Dataset Description
+. The goal of the exercise is to demonstrate proficiency in core SQL concepts including data filtering, aggregation, conditional logic, and advanced grouping techniques
+
+##Dataset Description
 The analysis is performed on a Retail Sales Dataset which includes transaction records with the following key attributes
 :
-##.Transaction Metadata: Transaction IDs, Dates, and Total Amounts.
+##Transaction Metadata: Transaction IDs, Dates, and Total Amounts.
 . Customer Demographics: Customer IDs, Age, and Gender.
 . Product Information: Product Categories and Price per Unit.
-##. Analytical Tasks & SQL Techniques
+
+##Analytical Tasks & SQL Techniques
 . The project addresses ten specific business questions using various SQL clauses and functions:
 1. Temporal Filtering: Utilizing the WHERE clause to isolate transactions from the year 2023
 .
@@ -32,11 +35,11 @@ The analysis is performed on a Retail Sales Dataset which includes transaction r
 .
 10. Targeted Behavioral Analysis: Combining WHERE and CASE logic to analyze the spending levels of customers aged 40 and older
 .
-##. Tools Used
+##Tools Used
 Google BigQuery: For data warehousing and executing SQL queries
 .
 . SQL: Primary language for data extraction and transformation.
-##. How to Use This Repository
+##How to Use This Repository
 . Each query in the repository corresponds to the questions (Q1–Q10) outlined in the BrightLearn Practical Exercise
 . You can run these queries directly in the BigQuery console on the relevant retail sales table.
 
